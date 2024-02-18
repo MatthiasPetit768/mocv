@@ -21,9 +21,9 @@ header {
 header img {
     height: 20%;
     width: 20%;
-    border-radius: 200px 200px;
+    border-radius: 200px;
     box-shadow: 0px 0px 20px 0px black;
-    cursor: zoom-in,;
+    cursor: zoom-in;
 }
 
 
@@ -31,29 +31,30 @@ header img {
 
 address{
     background-color: #2c1d27;
-    padding: 10px;    
+    padding: 10px;
+
 }
 
-address ul li a{
-    color: white;
-    text-decoration: none;   
-}
-
-address ul { 
+address ul {
     display: flex;
-    list-style: none;
+
 }
 
+address li a{
+    color: white;
+    text-decoration: none;
+}
+address li {
+    list-style: none;
+    margin-left: 11%;
+}
 
 
 main{
     display: grid;
     grid-template-columns: 0.40fr 1fr;
-   
     background-color: white;
-    border-right: 2px solid black;
-
-   
+    border-right: 2px solid black;   
 }
 
 section {
@@ -61,11 +62,13 @@ section {
     border: 2px solid #782221;
     background-color: #782221;
 }
+section p {
+    text-indent: 40px;
+}
 
 h2{
     background-color: #dbc2a4 ;
     font-family: lato;
-   
     padding-left:15px;
 }
 
@@ -79,17 +82,18 @@ div {
 
 div h2 {
     box-shadow: -13px 0px 0 #782221 ;
-    margin-left: 20px;
+
 }
 
-
-
-
+div p :hover{
+    border-right: 2px solid #782221;
+}
 
 
 footer img {
     width: 5%;
 }
+
 
 footer {
     text-align: center;
