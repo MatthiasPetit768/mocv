@@ -48,6 +48,9 @@ address li {
     list-style: none;
     margin-left: 11%;
 }
+address a:hover{
+    border-bottom: 2px solid white;
+}
 
 
 main{
@@ -78,6 +81,7 @@ section h2{
 
 div {
     margin: 0.83em;
+    padding-left: 5%;
 }
 
 div h2 {
@@ -85,16 +89,18 @@ div h2 {
 
 }
 
-div p :hover{
+div :hover{
     border-right: 2px solid #782221;
 }
 
 
 footer img {
     width: 5%;
+    border-radius: 10px;
 }
 
 
 footer {
     text-align: center;
+    padding-top: 4%;
 }
