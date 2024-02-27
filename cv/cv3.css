@@ -48,7 +48,7 @@ address li {
     list-style: none;
     margin-left: 11%;
 }
-address a:hover{
+address li a:hover{
     border-bottom: 2px solid white;
 }
 
